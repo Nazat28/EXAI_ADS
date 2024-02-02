@@ -38,7 +38,11 @@ Stability refers to how consistent the explanations are across multiple runs of 
 Completeness refers to whether the XAI methods can provide valid explanations for all input samples, including corner cases.  For local completeness on a VeReMi sample, LIME required fewer feature perturbations to change the class than SHAP, suggesting more complete local explanations. For a Sensor sample, LIME again needed fewer feature tweaks to alter the prediction, indicating more complete local explanations. For global completeness across thousands of VeReMi samples, both SHAP and LIME were incomplete, failing to modify some predictions when perturbing top features. But LIME performed slightly better, fully explaining 90% of benign and anomalous samples, versus 80% for SHAP.  For Sensor data, neither method was fully globally complete, but SHAP outperformed LIME for anomalous samples by 10%. 
 The global tests reveal the prevalence of explanation failures across the problem space. To be fully comprehensive, XAI methods need to capture the model logic for all samples. 
 Neither SHAP nor LIME achieved full completeness on the autonomous driving datasets. But LIME showed more complete local explanations for individual samples. 
-While SHAP had a slight edge for global anomalous sample explanations on Sensor data. Overall, both methods require improvement to provide complete explanations in all cases. 
+While SHAP had a slight edge for global anomalous sample explanations on Sensor data. Overall, both methods require improvement to provide complete explanations in all cases. Figure 16 and 17 depicts the local completeness of SHAP and LIME on VeReMi and Sensor dataset respectively.
+
+![complete_1](https://github.com/Nazat28/EXAI_ADS/assets/101791995/75859866-01b3-46e1-8f54-f4f1db74eec1)
+![complete_2](https://github.com/Nazat28/EXAI_ADS/assets/101791995/e7d98749-a8be-449c-b179-7b1dae915eb8)
+
 
 
 
