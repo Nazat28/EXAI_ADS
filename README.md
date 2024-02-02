@@ -29,5 +29,8 @@ Efficiency refers to the time required to generate explanations by SHAP and LIME
 ![eff_2](https://github.com/Nazat28/EXAI_ADS/assets/101791995/c2a27b1f-0c8e-41c2-ac7d-522f1dd770c5)
 ![eff_3](https://github.com/Nazat28/EXAI_ADS/assets/101791995/0960d66a-51f0-4e0b-a509-4fc00526d1b9)
 
+4. Stability:
+
+
 
 
