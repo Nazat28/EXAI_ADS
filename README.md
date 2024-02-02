@@ -21,3 +21,7 @@ Sparsity refers to how many input features are deemed highly relevant by the exp
 
 ![sparsity_veremi](https://github.com/Nazat28/EXAI_ADS/assets/101791995/37e0977c-df2d-450e-b8d9-64fb738f25d8)
 ![sparsity_sensor](https://github.com/Nazat28/EXAI_ADS/assets/101791995/c5512a9e-35d4-4b9e-9720-a70707f1befc)
+
+3. Efficiency:
+Efficiency refers to the time required to generate explanations by SHAP and LIME. For the multiclass VeReMi dataset, LIME was more efficient than SHAP overall across different sample sizes and models.  However, for lower sample sizes, SHAP was sometimes more efficient for certain models. For 50k samples, SHAP runtime could not be estimated for DNN and SVM models.  Similarly for binary class VeReMi data, LIME was generally more efficient except for 50k SVM samples. For the Sensor dataset, LIME again outperformed SHAP in efficiency for all models and sample sizes.  The Sensor data had up to 10k test samples due to dataset size limitations. Overall, LIME exhibited better computational efficiency and required less time to generate explanations than SHAP. The relative efficiency did depend somewhat on sample size and model complexity.  But in most cases, especially for large samples, LIME provided explanations faster than SHAP for autonomous driving datasets.  This suggests LIME has advantages for efficiently explaining models in time-critical applications like autonomous driving. 
+
