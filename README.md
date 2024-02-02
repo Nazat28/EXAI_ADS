@@ -30,6 +30,9 @@ Efficiency refers to the time required to generate explanations by SHAP and LIME
 ![eff_3](https://github.com/Nazat28/EXAI_ADS/assets/101791995/0960d66a-51f0-4e0b-a509-4fc00526d1b9)
 
 4. Stability:
+Stability refers to how consistent the explanations are across multiple runs of the XAI methods.  For global stability on VeReMi data, SHAP showed higher average intersection sizes than LIME, indicating more consistent top features. For Sensor data, SHAP outperformed LIME in global stability for 3 models, tied for 2, and did worse in 1 model. But overall SHAP was more globally stable. For local stability on a single sample from VeReMi, SHAP again showed higher stability than LIME, with more models having identical top features across runs. For Sensor data, SHAP beat LIME in local stability for 4 models, but LIME was more stable for 1 model. Overall SHAP was still more locally stable. 
+The local stability tests repeatedly explained the same sample, checking feature consistency. The global tests explained many samples, checking if top features remained the same. In both global and local tests, SHAP produced more consistent and stable feature attributions than LIME. This suggests SHAP explanations may be more reliable for autonomous driving systems. Unstable explanations that change across runs could mislead analysts monitoring these systems.  So SHAP's greater stability is advantageous for understandable and dependable explanations. 
+
 
 
 
