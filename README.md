@@ -46,5 +46,14 @@ While SHAP had a slight edge for global anomalous sample explanations on Sensor 
 
 
 
+To run experiments:
+
+1. For descriptive accuracy: First run the code till "initiating sparsity experiment". Then after getting the top features use the "df.drop" to drop the top features and run till this again. In this way descriptive accuracy without the top-k features can be got.
+2. For sparsity: Run the whole experiment to get the sparsity values across different threshold.
+3. For efficiency: Run the model first and then run cell named "Generating SHAP explanation"  and "Generating LIME explanation" for your desired sample number and note the time.
+4. For stability: First Run the model first and then run cell named "Generating SHAP explanation"  and "Generating LIME explanation" then according to the features implement the "stability" equation in  the paper "EXAI-ADS: On Evaluating Black-box Explainable AI Methods for Enhancing Anomaly Detection in Autonomous Driving Systems" and calculate the stability.
+
+
+
 
 
