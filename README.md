@@ -52,6 +52,7 @@ To run experiments:
 2. For sparsity: Run the whole experiment to get the sparsity values across different threshold.
 3. For efficiency: Run the model first and then run cell named "Generating SHAP explanation"  and "Generating LIME explanation" for your desired sample number and note the time.
 4. For stability: First Run the model first and then run cell named "Generating SHAP explanation"  and "Generating LIME explanation" then according to the features implement the "stability" equation in  the paper "EXAI-ADS: On Evaluating Black-box Explainable AI Methods for Enhancing Anomaly Detection in Autonomous Driving Systems" and calculate the stability.
+5. For robustness experiment: Inside the VeReMi folder, first run the code: get_data_veremi.py to generate a csv file. Then run Sensitivity_SHAP and Sensitivity_LIME to generate the Robustness Sensitivity graph and Robustness_veremi.py for robustness bar graphs for LIME and SHAP respectively.
 
 
 
