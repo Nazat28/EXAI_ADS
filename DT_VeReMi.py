@@ -16,6 +16,7 @@ df.head()
 # In[2]:
 
 
+
 # drop the columns 'pos_x', 'pos_y', 'pos_z', 'spd_x' ,'spd_y', 'spd_z'
 # df = df.drop(['spd_y','pos_x','spd_x'], axis=1)
 data_df=df
