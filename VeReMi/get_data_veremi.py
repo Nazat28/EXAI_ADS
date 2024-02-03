@@ -94,7 +94,7 @@ import lime.lime_tabular
 import shap
 from copy import deepcopy
 
-# Flip LIME flag to vary between lime shap
+# Change this to "False" for generating data for SHAP
 LIME = True
 
 # Set up experiment parameters
