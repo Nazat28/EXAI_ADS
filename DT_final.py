@@ -10,7 +10,6 @@ import numpy as np
 df=pd.read_csv('modified_data.csv')
 
 
-
 df.head()
 
 
