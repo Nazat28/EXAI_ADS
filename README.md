@@ -44,9 +44,14 @@ While SHAP had a slight edge for global anomalous sample explanations on Sensor 
 ![complete_2](https://github.com/Nazat28/EXAI_ADS/assets/101791995/e7d98749-a8be-449c-b179-7b1dae915eb8)
 
 
+**Datasets**
+1. VeReMi dataset: Download link -> https://github.com/josephkamel/VeReMi-Dataset
+2. Sensor dataset: Sensor dataset is provided in this repository named "Sensor_dataset"
 
 
-To run experiments:
+
+
+**To run experiments:**
 
 1. For descriptive accuracy: First run the code till "initiating sparsity experiment". Then after getting the top features use the "df.drop" to drop the top features and run till this again. In this way descriptive accuracy without the top-k features can be got.
 2. For sparsity: Run the whole experiment to get the sparsity values across different threshold.
