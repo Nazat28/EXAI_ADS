@@ -35,14 +35,14 @@ Stability refers to how consistent the explanations are across multiple runs of 
 ![stability](https://github.com/Nazat28/EXAI_ADS/assets/101791995/7a7a2938-2049-4a40-897b-a7686a766acb)
 
 5. Robustness:
-Robustness refers to whether adversarial attacks can fool the XAI methods into generating misleading explanations. For the occurrence percentage test on VeReMi data, SHAP and LIME performed similarly. Despite attacks, they still identified the biased feature in top positions, giving analysts a chance to detect attacks. For Sensor data, LIME showed higher resilience, with the biased feature still appearing despite attacks. For sensitivity testing, LIME was more robust than SHAP up to a higher OOD-F1 threshold of 0.6 vs 0.4. Above those thresholds both methods became vulnerable. But LIME endured more attacks initially. For the robustness test on a sample VeReMi explanation, the attack succeeded in fooling both SHAP and LIME. The biased feature was replaced by an unrelated synthetic feature as the top feature. For Sensor data, SHAP was again fooled, but LIME was partially fooled, with a real feature replacing the biased one. Overall, while both methods exhibited some vulnerability to attacks, LIME showed more resilience. It required more sophisticated attacks and endured more attacks before explanations were fooled. So LIME appears more robust than SHAP, but improvements in adversarial resilience are still needed. Robust explainability is crucial for autonomous systems to avoid misleading analysts.
+Robustness refers to whether adversarial attacks can fool the XAI methods into generating misleading explanations. For the occurrence percentage test on VeReMi data, SHAP and LIME performed similarly. Despite attacks, they still identified the biased feature in top positions, giving analysts a chance to detect attacks (figure 8). For Sensor data, LIME showed higher resilience, with the biased feature still appearing despite attacks (figure 9). For sensitivity testing (figure 14 and figure 15), LIME was more robust than SHAP up to a higher OOD-F1 threshold. Above those thresholds both methods became vulnerable. But LIME endured more attacks initially. For the robustness test on a sample VeReMi explanation, the attack succeeded in fooling both SHAP and LIME. The biased feature was replaced by an unrelated synthetic feature as the top feature. For Sensor data, SHAP was again fooled, but LIME was partially fooled, with a real feature replacing the biased one. Overall, while both methods exhibited some vulnerability to attacks, LIME showed more resilience. It required more sophisticated attacks and endured more attacks before explanations were fooled. So LIME appears more robust than SHAP, but improvements in adversarial resilience are still needed. Robust explainability is crucial for autonomous systems to avoid misleading analysts. 
 
 
-![o_percent](https://github.com/Nazat28/EXAI_ADS/assets/101791995/2c736664-cdc6-4ba2-96d1-d3ee99bf4f2e)
-![sensitivity](https://github.com/Nazat28/EXAI_ADS/assets/101791995/9a352697-8ae9-48b0-9e71-0bf87fa17d42)
-![robust_veremi](https://github.com/Nazat28/EXAI_ADS/assets/101791995/4243e047-b4eb-4e81-8186-fa8cdc692556)
-![robust_sensor](https://github.com/Nazat28/EXAI_ADS/assets/101791995/6f7091e3-cd46-4b53-86ed-133a321f45e5)
-![robust_LIME](https://github.com/Nazat28/EXAI_ADS/assets/101791995/93a95e09-0858-4500-a0b5-a364bc8f8d34)
+![sensitivity](https://github.com/Nazat28/EXAI_ADS/assets/101791995/85411e8d-27a7-45a1-8ed1-457e7b23a629)
+![robust_SHAP_sample](https://github.com/Nazat28/EXAI_ADS/assets/101791995/a19cce18-a2ba-4178-a437-949d4debd943)
+![robust_LIME_sample](https://github.com/Nazat28/EXAI_ADS/assets/101791995/35491ddd-ea4b-4f51-ace5-ef6f28f5343c)
+![robust_LIME](https://github.com/Nazat28/EXAI_ADS/assets/101791995/98e9674e-74d0-4376-bc24-6e69fa8eaf64)
+![o_p](https://github.com/Nazat28/EXAI_ADS/assets/101791995/3ae963e3-909c-48a2-8a3d-529064bf46f3)
 
 
 
