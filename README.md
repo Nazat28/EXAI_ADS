@@ -46,7 +46,7 @@ While SHAP had a slight edge for global anomalous sample explanations on Sensor 
 
 **Datasets**
 1. VeReMi dataset: Download link -> https://github.com/josephkamel/VeReMi-Dataset
-2. Sensor dataset: Sensor dataset is provided in this repository named "Sensor_dataset"
+2. Sensor dataset: Sensor dataset is provided in this repository named "Sensor_dataset.csv"
 
 
 
