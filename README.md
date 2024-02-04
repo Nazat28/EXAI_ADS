@@ -46,8 +46,7 @@ Robustness refers to whether adversarial attacks can fool the XAI methods into g
 
 
 
-
-7. Completeness:
+6. Completeness:
 Completeness refers to whether the XAI methods can provide valid explanations for all input samples, including corner cases.  For local completeness on a VeReMi sample, LIME required fewer feature perturbations to change the class than SHAP, suggesting more complete local explanations. For a Sensor sample, LIME again needed fewer feature tweaks to alter the prediction, indicating more complete local explanations. For global completeness across thousands of VeReMi samples, both SHAP and LIME were incomplete, failing to modify some predictions when perturbing top features. But LIME performed slightly better, fully explaining 90% of benign and anomalous samples, versus 80% for SHAP.  For Sensor data, neither method was fully globally complete, but SHAP outperformed LIME for anomalous samples by 10%. 
 The global tests reveal the prevalence of explanation failures across the problem space. To be fully comprehensive, XAI methods need to capture the model logic for all samples. 
 Neither SHAP nor LIME achieved full completeness on the autonomous driving datasets. But LIME showed more complete local explanations for individual samples. 
