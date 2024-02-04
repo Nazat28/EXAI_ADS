@@ -80,3 +80,202 @@ Robustness based on: https://github.com/dylan-slack/Fooling-LIME-SHAP/
 
 Six metrics evaluated are based on: https://arxiv.org/abs/1906.02108
 
+
+
+[1] F. Ahmad, A. Adnane, and V. N. Franqueira. A systematic approach for cyber
+security in vehicular networks. Journal of Computer and Communications,
+4(16):38–62, 2016.
+[2] K. M. Ali Alheeti and K. McDonald-Maier. Intelligent intrusion detection in
+external communication systems for autonomous vehicles. Systems Science &
+Control Engineering, 6(1):48–56, 2018.
+[3] A. A. Alsulami, Q. Abu Al-Haija, A. Alqahtani, and R. Alsini. Symmetrical
+simulation scheme for anomaly detection in autonomous vehicles based on lstm
+model. Symmetry, 14(7), 2022.
+[4] O. Arreche, T. Guntur, and M. Abdallah. Xai-ids: Towards proposing an
+explainable artificial intelligence framework for enhancing network intrusion
+detection systems. Available at SSRN 4567885.
+[5] S. Atakishiyev, M. Salameh, H. Yao, and R. Goebel. Explainable artificial
+intelligence for autonomous driving: a comprehensive overview and field guide
+for future research directions. arXiv preprint arXiv:2112.11561, 2021.
+[6] S. A. Bagloee, M. Tavana, M. Asadi, and T. Oliver. Autonomous vehicles:
+challenges, opportunities, and future implications for transportation policies.
+Journal of Modern Transportation, 24(4):284–303, Dec. 2016.
+[7] A. Bhattacharya. Understand the workings of shap and shapley values used in
+explainable ai. https://shorturl.at/kloHThttps://shorturl.at/kloHT.
+[8] D. Bogdoll, M. Nitsche, and J. M. Zöllner. Anomaly detection in autonomous
+driving: A survey. In Proceedings of the IEEE/CVF conference on computer vision
+and pattern recognition, pages 4488–4499, 2022.
+[9] H. Caesar, V. Bankiti, A. H. Lang, S. Vora, V. E. Liong, Q. Xu, A. Krishnan, Y. Pan,
+G. Baldan, and O. Beijbom. nuscenes: A multimodal dataset for autonomous
+driving, 2020.
+[10] N. Capuano, G. Fenza, V. Loia, and C. Stanzione. Explainable artificial intelligence
+in cybersecurity: A survey. IEEE Access, 10:93575–93600, 2022.
+[11] Z. Che, S. Purushotham, K. Cho, D. Sontag, and Y. Liu. Recurrent neural networks
+for multivariate time series with missing values. Scientific reports, 8(1):6085, 2018.
+[12] F. Chollet et al. Keras, 2015.
+[13] A. Chowdhury, G. Karmakar, J. Kamruzzaman, A. Jolfaei, and R. Das. Attacks
+on self-driving cars and their countermeasures: A survey. IEEE Access,
+8:207308–207342, 2020.
+[14] A. Das and P. Rad. Opportunities and challenges in explainable artificial
+intelligence (xai): A survey. arXiv preprint arXiv:2006.11371, 2020.
+[15] C. Dilmegani. Explainable ai (xai) in 2023: Guide to enterprise-ready ai.
+https://research.aimultiple.com/xai/.
+[16] P. Dixit, P. Bhattacharya, S. Tanwar, and R. Gupta. Anomaly detection in
+autonomous electric vehicles using ai techniques: A comprehensive survey. Expert
+Systems, 39(5):e12754, 2022.
+[17] J. Dong, S. Chen, M. Miralinaghi, T. Chen, P. Li, and S. Labi. Why did the ai make
+that decision? towards an explainable artificial intelligence (xai) for autonomous
+driving systems. Transportation research part C: emerging technologies, 156:104358,
+2023.
+[18] R. Dwivedi, D. Dave, H. Naik, S. Singhal, R. Omer, P. Patel, B. Qian, Z. Wen, T. Shah,
+G. Morgan, et al. Explainable ai (xai): Core ideas, techniques, and solutions. ACM
+Computing Surveys, 55(9):1–33, 2023.
+[19] S. Ercan, M. Ayaida, and N. Messai. Misbehavior detection for position falsification
+attacks in vanets using machine learning. IEEE Access, 10:1893–1904, 2022.
+[20] D. Feng, L. Rosenbaum, and K. Dietmayer. Towards safe autonomous driving:
+Capture uncertainty in the deep neural network for lidar 3d vehicle detection.
+In 2018 21st international conference on intelligent transportation systems (ITSC),
+pages 3266–3273. IEEE, 2018.
+[21] D. Fernández Llorca and E. Gómez. Trustworthy autonomous vehicles.
+Publications Office of the European Union, Luxembourg„ EUR, 30942, 2021.
+[22] C. Gao, G. Wang, W. Shi, Z. Wang, and Y. Chen. Autonomous driving security:
+State of the art and challenges. IEEE Internet of Things Journal, 9(10):7572–7595,
+2021.
+[23] J. Geyer, Y. Kassahun, M. Mahmudi, X. Ricou, R. Durgesh, A. S. Chung,
+L. Hauswald, V. H. Pham, M. Mühlegg, S. Dorn, T. Fernandez, M. Jänicke,
+S. Mirashi, C. Savani, M. Sturm, O. Vorobiov, M. Oelker, S. Garreis, and
+P. Schuberth. A2d2: Audi autonomous driving dataset, 2020.
+[24] J. Grover, N. K. Prajapati, V. Laxmi, and M. S. Gaur. Machine learning approach
+for multiple misbehavior detection in vanet. In Advances in Computing and
+Communications: First International Conference, ACC 2011, Kochi, India, July 22-24,
+2011, Proceedings, Part III 1, pages 644–653. Springer, 2011.
+[25] R. Guidotti, A. Monreale, S. Ruggieri, F. Turini, F. Giannotti, and D. Pedreschi.
+A survey of methods for explaining black box models. ACM computing surveys
+(CSUR), 51(5):1–42, 2018.
+[26] R. Gundu and M. Maleki. Securing can bus in connected and autonomous
+vehicles using supervised machine learning approaches. In 2022 IEEE International
+Conference on Electro Information Technology (eIT), pages 042–046, 2022.
+[27] D. Holliday, S. Wilson, and S. Stumpf. User trust in intelligent systems: A journey
+over time. In Proceedings of the 21st International Conference on Intelligent User
+Interfaces, IUI ’16, page 164–168, New York, NY, USA, 2016. Association for
+Computing Machinery.
+[28] Z. Hu, J. Shen, S. Guo, X. Zhang, Z. Zhong, Q. A. Chen, and K. Li. Pass: A
+system-driven evaluation platform for autonomous driving safety and security.
+In NDSS Workshop on Automotive and Autonomous Vehicle Security (AutoSec),
+2022.
+[29] C. Hwang and T. Lee. E-sfd: Explainable sensor fault detection in the ics anomaly
+detection system. IEEE Access, 9:140470–140486, 2021.
+[30] B. W. Israelsen and N. R. Ahmed. “dave...i can assure you ...that it’s going to
+be all right ...” a definition, case for, and survey of algorithmic assurances in
+human-autonomy trust relationships. ACM Comput. Surv., 51(6), jan 2019.
+[31] A. R. Javed, M. Usman, S. U. Rehman, M. U. Khan, and M. S. Haghighi.
+Anomaly detection in automated vehicles using multistage attention-based
+convolutional neural network. IEEE Transactions on Intelligent Transportation
+Systems, 22(7):4291–4300, 2020.
+[32] A. R. Javed, M. Usman, S. U. Rehman, M. U. Khan, and M. S. Haghighi.
+Anomaly detection in automated vehicles using multistage attention-based
+convolutional neural network. IEEE Transactions on Intelligent Transportation
+Systems, 22(7):4291–4300, 2021.
+[33] W. Li, P. Yi, Y. Wu, L. Pan, and J. Li. A new intrusion detection system based on
+knn classification algorithm in wireless sensor network. Journal of Electrical and
+Computer Engineering, 2014, 2014.
+[34] Z. C. Lipton. The mythos of model interpretability, 2017.
+[35] H. Lundberg, N. I. Mowla, S. F. Abedin, K. Thar, A. Mahmood, M. Gidlund,
+and S. Raza. Experimental analysis of trustworthy in-vehicle intrusion
+detection system using explainable artificial intelligence (xai). IEEE Access,
+10:102831–102841, 2022.
+[36] S. M. Lundberg, G. Erion, H. Chen, A. DeGrave, J. M. Prutkin, B. Nair, R. Katz,
+J. Himmelfarb, N. Bansal, and S.-I. Lee. From local explanations to global
+understanding with explainable ai for trees. Nature machine intelligence,
+2(1):56–67, 2020.
+[37] A. S. Madhav and A. K. Tyagi. Explainable artificial intelligence (xai): connecting
+artificial decision-making and human trust in autonomous vehicles. In
+Proceedings of Third International Conference on Computing, Communications, and
+Cyber-Security: IC4S 2021, pages 123–136. Springer, 2022.
+[38] B. Mahbooba, M. Timilsina, R. Sahal, and M. Serrano. Explainable artificial
+intelligence (xai) to enhance trust management in intrusion detection systems
+using decision tree model. Complexity, 2021:1–11, 2021 
+[39] H. Mankodiya, M. S. Obaidat, R. Gupta, and S. Tanwar. Xai-av: Explainable
+artificial intelligence for trust management in autonomous vehicles. In 2021
+International Conference on Communications, Computing, Cybersecurity, and
+Informatics (CCCI), pages 1–5. IEEE, 2021.
+[40] A. Martinho, N. Herber, M. Kroesen, and C. Chorus. Ethical issues in focus by
+the autonomous vehicles industry. Transport Reviews, 41(5):556–577, 2021.
+[41] C. Molnar. Interpretable Machine Learning. 2019. https://christophm.github.io/
+interpretable-ml-book/.
+[42] M. Müter, A. Groll, and F. C. Freiling. A structured approach to anomaly detection
+for in-vehicle networks. In 2010 Sixth International Conference on Information
+Assurance and Security, pages 92–98, 2010.
+[43] S. Nazat and M. Abdallah. Anomaly detection framework for securing
+next generation networks of platoons of autonomous vehicles in a
+vehicle-to-everything system. In Proceedings of the 9th ACM Cyber-Physical
+System Security Workshop, pages 24–35, 2023.
+[44] C. I. Nwakanma, L. A. C. Ahakonye, J. N. Njoku, J. C. Odirichukwu, S. A.
+Okolie, C. Uzondu, C. C. Ndubuisi Nweke, and D.-S. Kim. Explainable artificial
+intelligence (xai) for intrusion detection and mitigation in intelligent connected
+vehicles: A review. Applied Sciences, 13(3), 2023.
+[45] S. Parkinson, P. Ward, K. Wilson, and J. Miller. Cyber threats facing autonomous
+and connected vehicles: Future challenges. IEEE transactions on intelligent
+transportation systems, 18(11):2898–2915, 2017.
+[46] F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel,
+M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos,
+D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. Scikit-learn: Machine
+learning in Python. Journal of Machine Learning Research, 12:2825–2830, 2011.
+[47] M. D. Pesé, J. W. Schauer, J. Li, and K. G. Shin. S2-can: Sufficiently secure controller
+area network. In Annual Computer Security Applications Conference, ACSAC ’21,
+page 425–438, New York, NY, USA, 2021. Association for Computing Machinery.
+[48] S. B. Prathiba, G. Raja, S. Anbalagan, A. K. S, S. Gurumoorthy, and K. Dev. A hybrid
+deep sensor anomaly detection for autonomous vehicles in 6g-v2x environment.
+IEEE Transactions on Network Science and Engineering, 10(3):1246–1255, 2023.
+[49] R. Raja and B. K. Sarkar. Chapter 12 - an entropy-based hybrid feature selection
+approach for medical datasets. In P. Kumar, Y. Kumar, and M. A. Tawhid,
+editors, Machine Learning, Big Data, and IoT for Medical Informatics, Intelligent
+Data-Centric Systems, pages 201–214. Academic Press, 2021.
+[50] M. T. Ribeiro, S. Singh, and C. Guestrin. " why should i trust you?" explaining the
+predictions of any classifier. In Proceedings of the 22nd ACM SIGKDD international
+conference on knowledge discovery and data mining, pages 1135–1144, 2016.
+[51] S. Santini, A. Salvi, A. Valente, A. Pescapè, M. Segata, and R. Lo Cigno. A
+consensus-based approach for platooning with inter-vehicular communications.
+04 2015.
+[52] A. Simkute, E. Luger, B. Jones, M. Evans, and R. Jones. Explainability for experts:
+A design framework for making algorithms supporting expert decisions more
+explainable. Journal of Responsible Technology, 7:100017, 2021.
+[53] V. K. K. Sivaramakrishnan Rajendar. Sensor data based anomaly detection in
+autonomous vehicles using modified convolutional neural network. Intelligent
+Automation & Soft Computing, 32(2):859–875, 2022.
+[54] D. Slack, S. Hilgard, E. Jia, S. Singh, and H. Lakkaraju. Fooling lime and shap:
+Adversarial attacks on post hoc explanation methods. In Proceedings of the
+AAAI/ACM Conference on AI, Ethics, and Society, pages 180–186, 2020.
+[55] C. Tang, N. Luktarhan, and Y. Zhao. Saae-dnn: Deep learning method on intrusion
+detection. Symmetry, 12(10):1695, 2020.
+[56] P. Tao, Z. Sun, and Z. Sun. An improved intrusion detection algorithm based on
+ga and svm. Ieee Access, 6:13624–13631, 2018.
+[57] R. W. van der Heijden, T. Lukaseder, and F. Kargl. Veremi: A dataset for
+comparable evaluation of misbehavior detection in vanets, 2018.
+[58] F. van Wyk, Y. Wang, A. Khojandi, and N. Masoud. Real-time sensor anomaly
+detection and identification in automated vehicles. IEEE Transactions on Intelligent
+Transportation Systems, 21(3):1264–1276, 2020.
+[59] A. Warnecke, D. Arp, C. Wressnegger, and K. Rieck. Evaluating explanation
+methods for deep learning in security. In 2020 IEEE European Symposium on
+Security and Privacy (EuroS&P), pages 158–174, 2020.
+[60] S. Waskle, L. Parashar, and U. Singh. Intrusion detection system using pca with
+random forest approach. In 2020 International Conference on Electronics and
+Sustainable Communication Systems (ICESC), pages 803–808. IEEE, 2020.
+[61] J. Xiong, R. Bi, M. Zhao, J. Guo, and Q. Yang. Edge-assisted privacy-preserving
+raw data sharing framework for connected autonomous vehicles. IEEE Wireless
+Communications, 27(3):24–30, 2020.
+[62] A. Yulianto, P. Sukarno, and N. A. Suwastika. Improving adaboost-based intrusion
+detection system (ids) performance on cic ids 2017 dataset. In Journal of Physics:
+Conference Series, volume 1192, page 012018. IOP Publishing, 2019.
+[63] A. Zekry, A. Sayed, M. Moussa, and M. Elhabiby. Anomaly detection using
+iot sensor-assisted convlstm models for connected vehicles. In 2021 IEEE 93rd
+Vehicular Technology Conference (VTC2021-Spring), pages 1–6. IEEE, 2021.
+[64] Q. Zhang, J. Shen, M. Tan, Z. Zhou, Z. Li, Q. A. Chen, and H. Zhang. Play the
+imitation game: Model extraction attack against autonomous driving localization.
+In Proceedings of the 38th Annual Computer Security Applications Conference,
+pages 56–70, 2022.
+[65] Q. Zheng, Z. Wang, J. Zhou, and J. Lu. Shap-cam: Visual explanations for
+convolutional neural networks based on shapley value. In Computer Vision–ECCV
+2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022, Proceedings,
+Part XII, pages 459–474. Springer, 2022.
+
