@@ -38,6 +38,15 @@ Stability refers to how consistent the explanations are across multiple runs of 
 Robustness refers to whether adversarial attacks can fool the XAI methods into generating misleading explanations. For the occurrence percentage test on VeReMi data, SHAP and LIME performed similarly. Despite attacks, they still identified the biased feature in top positions, giving analysts a chance to detect attacks. For Sensor data, LIME showed higher resilience, with the biased feature still appearing despite attacks. For sensitivity testing, LIME was more robust than SHAP up to a higher OOD-F1 threshold of 0.6 vs 0.4. Above those thresholds both methods became vulnerable. But LIME endured more attacks initially. For the robustness test on a sample VeReMi explanation, the attack succeeded in fooling both SHAP and LIME. The biased feature was replaced by an unrelated synthetic feature as the top feature. For Sensor data, SHAP was again fooled, but LIME was partially fooled, with a real feature replacing the biased one. Overall, while both methods exhibited some vulnerability to attacks, LIME showed more resilience. It required more sophisticated attacks and endured more attacks before explanations were fooled. So LIME appears more robust than SHAP, but improvements in adversarial resilience are still needed. Robust explainability is crucial for autonomous systems to avoid misleading analysts.
 
 
+![o_percent](https://github.com/Nazat28/EXAI_ADS/assets/101791995/2c736664-cdc6-4ba2-96d1-d3ee99bf4f2e)
+![sensitivity](https://github.com/Nazat28/EXAI_ADS/assets/101791995/9a352697-8ae9-48b0-9e71-0bf87fa17d42)
+![robust_veremi](https://github.com/Nazat28/EXAI_ADS/assets/101791995/4243e047-b4eb-4e81-8186-fa8cdc692556)
+![robust_sensor](https://github.com/Nazat28/EXAI_ADS/assets/101791995/6f7091e3-cd46-4b53-86ed-133a321f45e5)
+![robust_LIME](https://github.com/Nazat28/EXAI_ADS/assets/101791995/93a95e09-0858-4500-a0b5-a364bc8f8d34)
+
+
+
+
 7. Completeness:
 Completeness refers to whether the XAI methods can provide valid explanations for all input samples, including corner cases.  For local completeness on a VeReMi sample, LIME required fewer feature perturbations to change the class than SHAP, suggesting more complete local explanations. For a Sensor sample, LIME again needed fewer feature tweaks to alter the prediction, indicating more complete local explanations. For global completeness across thousands of VeReMi samples, both SHAP and LIME were incomplete, failing to modify some predictions when perturbing top features. But LIME performed slightly better, fully explaining 90% of benign and anomalous samples, versus 80% for SHAP.  For Sensor data, neither method was fully globally complete, but SHAP outperformed LIME for anomalous samples by 10%. 
 The global tests reveal the prevalence of explanation failures across the problem space. To be fully comprehensive, XAI methods need to capture the model logic for all samples. 
