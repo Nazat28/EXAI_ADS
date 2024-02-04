@@ -44,7 +44,7 @@ While SHAP had a slight edge for global anomalous sample explanations on Sensor 
 ![complete_2](https://github.com/Nazat28/EXAI_ADS/assets/101791995/e7d98749-a8be-449c-b179-7b1dae915eb8)
 
 
-**Datasets**
+**Datasets:**
 1. VeReMi dataset: Download link -> https://github.com/josephkamel/VeReMi-Dataset
 2. Sensor dataset: Sensor dataset is provided in this repository named "Sensor_dataset.csv"
 
@@ -62,6 +62,7 @@ While SHAP had a slight edge for global anomalous sample explanations on Sensor 
    
 
 
+**References:**
 
 Robustness based on: https://github.com/dylan-slack/Fooling-LIME-SHAP/
 
